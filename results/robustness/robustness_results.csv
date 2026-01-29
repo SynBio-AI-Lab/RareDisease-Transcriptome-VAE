@@ -1,0 +1,6 @@
+run,seed,accuracy,f1,auc,pca_path,val_loss,dist_to_mean
+1,42,1.0,1.0,1.0,C:\Users\USER\Documents\smk_data\2026 AI Challenge\results\robustness\run_1\pca_run_1.png,297.982861328125,0.006896551724137945
+2,10,1.0,1.0,1.0,C:\Users\USER\Documents\smk_data\2026 AI Challenge\results\robustness\run_2\pca_run_2.png,303.583349609375,0.006896551724137945
+3,2024,1.0,1.0,1.0,C:\Users\USER\Documents\smk_data\2026 AI Challenge\results\robustness\run_3\pca_run_3.png,298.55732421875,0.006896551724137945
+4,777,1.0,1.0,1.0,C:\Users\USER\Documents\smk_data\2026 AI Challenge\results\robustness\run_4\pca_run_4.png,281.845458984375,0.006896551724137945
+5,99,0.9655172413793104,0.9657742557292782,0.9494949494949495,C:\Users\USER\Documents\smk_data\2026 AI Challenge\results\robustness\run_5\pca_run_5.png,286.0601806640625,0.027586206896551668
