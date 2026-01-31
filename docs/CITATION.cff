@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "Robust Generative Augmentation of Rare Disease Transcriptomes: Sampling Temperature Scaling to Mitigate Mode Collapse in VAEs"
+message: "If you use this repository, please cite our work as below."
+type: software
+authors:
+  - family-names: Song
+    given-names: Min Kyung
+    affiliation: "Kwangwoon University, Department of Convergence Technology Management"
+    orcid: ""
+year: 2026
+doi: 10.5281/zenodo.18431155
+url: https://github.com/SynBio-AI-Lab/RareDisease-Transcriptome-VAE
+license: MIT
