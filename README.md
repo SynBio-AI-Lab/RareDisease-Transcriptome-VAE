@@ -13,7 +13,7 @@ This repository provides the official implementation of a VAE-based generative d
 
 - **Clinical Utility (TSTR)**: Models trained on synthetic data (Train-on-Synthetic, Test-on-Real) achieved an accuracy of $99.3\% \pm 1.5\%$ and an AUC of $0.990 \pm 0.023$, demonstrating strong downstream utility.
 
-- **Biological Validity**: Feature importance analysis identified pathologically significant biomarkers, including TRPM6, APOA1, and TREH, which are consistent with the intestinal absorption mechanisms detailed in *Sleisenger and Fordtran's Gastrointestinal and Liver Disease(12th Ed.)*.
+- **Biological Validity**: Feature importance analysis identified pathologically significant biomarkers, including TRPM6, APOA1, and TREH, which are consistent with the intestinal absorption mechanisms detailed in *Sleisenger and Fordtran's Gastrointestinal and Liver Disease (12th Ed.)*.
 
 
 ## Repository Structure
@@ -39,10 +39,17 @@ git clone https://github.com/SynBio-AI-Lab/RareDisease-Transcriptome-VAE.git
 cd RareDisease-Transcriptome-VAE
 pip install -r environment/requirements.txt
 ```
-### 2. Data & Model Acquisition
-Due to file size limitations, large files (pre-trained models and full synthetic datasets) must be downloaded from our Zenodo Archive (DOI: 10.5281/zenodo.18431155) and placed in their respective directories:
-- Place `.pt` files in `models/`
-- Place large `.csv` files in `data/synthetic/`
+### 2. Required Artifacts (Models & Data)
+
+Large artifacts are not included in this GitHub repository and are hosted on Zenodo.
+
+**Zenodo DOI**: https://doi.org/10.5281/zenodo.18431155
+
+Download the Zenodo archive and extract it at the root of this repository.
+
+The archive mirrors the directory structure of this project and will automatically
+place files (models, synthetic data, processed matrices, and results) into their
+correct locations.
 
 ## Reproducibility
 To reproduce the 5-run independent robustness check reported in the paper (Table A1), run the following script:
